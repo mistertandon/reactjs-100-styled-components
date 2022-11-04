@@ -1,3 +1,3 @@
-import Button from './Button.style';
+import Button from './StyledButton.style';
 
 export default Button;
