@@ -7,10 +7,6 @@ const StyledButton = styled.button`
     variant === "info" ? "orange" : "#C7C7C7"};
   width: 100px;
   height: 25px;
-  &:hover {
-    background-color: ${({ variant }) =>
-      variant !== "info" ? "orange" : "#C7C7C7"};
-  }
 `;
 
 export default StyledButton;
